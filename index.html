@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <title>Humberto Bioca</title>
         <link rel="stylesheet" href="/css/style.css">
+        <script type="text/javascript" src="http://cgcq.funcao.net/CadeGuincho23_6/scripts/fichatcg.js"></script>
     </head>
 <body>
 
@@ -19,11 +20,17 @@
   <div class="bottomleft">
     <p>Em Produção...</p>
   </div>
+    <div id="dvChat"></div>
 </div>
-
+    
+    
 <script>
+   $('#dvChat').FIChat();
+</script>
+
+<script> 
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 30, 2019 12:00:00").getTime();
+var countDownDate = new Date("Dec 31 2019 12:00:00").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
